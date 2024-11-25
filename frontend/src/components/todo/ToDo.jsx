@@ -5,7 +5,6 @@ import notify from "../../UI/Notify/Notify";
 import Update from "./Update";
 import axios from "axios";
 import Button from "../../UI/Button/Button";
-import Input from "../../UI/Input/Input";
 
 const ToDo = () => {
   const [inputs, setInputs] = useState({
@@ -99,7 +98,7 @@ const ToDo = () => {
       <div className="todo">
         <div className="todo-main-container d-flex justify-content-center align-items-center my-4 flex-column">
           <div className="d-flex flex-column todo-inputs-div w-50 p-2">
-            <Input
+            <input
               type="text"
               placeholder="Title"
               name="title"

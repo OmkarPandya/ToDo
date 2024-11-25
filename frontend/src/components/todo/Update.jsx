@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { useEffect, useState, useCallback } from "react";
 import notify from "../../UI/Notify/Notify";
 import Button from "../../UI/Button/Button";
-import Input from "../../UI/Input/Input";
 
 const Update = ({ updateModal, id }) => {
   const [task, setTask] = useState(null);
@@ -58,7 +57,7 @@ const Update = ({ updateModal, id }) => {
   return (
     <div className="p-5 d-flex justify-content-center align-items-start flex-column update">
       <h3>Update Your Task</h3>
-      <Input
+      <input
         type="text"
         name="title"
         value={task.title || ""}
