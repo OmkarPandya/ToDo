@@ -1,9 +1,8 @@
 import React from "react";
-import Card from "../../../UI/Card/Card";
+import Card from "../../UI/Card/Card";
 import { AiFillDelete } from "react-icons/ai";
 import { CiEdit } from "react-icons/ci";
 import "./todo.css";
-import Input from "../../../UI/Input/Input";
 
 const TodoList = ({ todoList, deleteTask, updateModal, setUpdateId }) => {
   return (

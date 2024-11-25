@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useCallback, useRef } from "react";
 import "./todo.css";
 import TodoList from "./todoList";
-import notify from "../../../UI/Notify/Notify";
+import notify from "../../UI/Notify/Notify";
 import Update from "./Update";
 import axios from "axios";
-import Button from "../../../UI/Button/Button";
-import Input from "../../../UI/Input/Input";
+import Button from "../../UI/Button/Button";
+import Input from "../../UI/Input/Input";
 
 const ToDo = () => {
   const [inputs, setInputs] = useState({

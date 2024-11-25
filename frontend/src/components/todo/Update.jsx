@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState, useCallback } from "react";
-import notify from "../../../UI/Notify/Notify";
-import Button from "../../../UI/Button/Button";
-import Input from "../../../UI/Input/Input";
+import notify from "../../UI/Notify/Notify";
+import Button from "../../UI/Button/Button";
+import Input from "../../UI/Input/Input";
 
 const Update = ({ updateModal, id }) => {
   const [task, setTask] = useState(null);
